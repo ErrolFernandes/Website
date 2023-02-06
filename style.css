@@ -97,7 +97,7 @@ marquee{
 h3 {
     /* position: relative; */
     width: 174px;
-    margin-top: 18%;
+    margin-top: 11%;
     margin-left:3% ;
     margin-bottom: 0;
     font-family: bhs;
@@ -118,13 +118,15 @@ margin-right: 100px;
 
 font-family: c;
 font-style: normal;
-line-height: 20px;
+line-height: 25px;
 text-align: justify;
-letter-spacing: 0.35em;
-word-spacing: 0.145em;
+letter-spacing: 0.45em;
+word-spacing: 0.45em;
 color: #FFFFFF;
 font-stretch: 100;
 mix-blend-mode: normal;
+
+
 }
 
 h4{
@@ -134,6 +136,8 @@ h4{
     font-family: c;
     letter-spacing: 0.25em;
     color: #FFFFFF;
+    border-top: 5px dashed #FFFFFF;
+    padding-top: 50px;
 }
 
 .P {
