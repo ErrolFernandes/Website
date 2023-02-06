@@ -238,13 +238,15 @@ footer{
   
   @media (max-width: 1000px){
     #message {
-        display: block;
-        text-align: center;
+        display: flex;
+        color: #FFFFFF;
+        justify-content: center;
+        font-family: c;
         letter-spacing: 0;
-        font-size: 100px;
+        font-size: 4em;
         line-height: 150px;
       }
-    .navbar,#w,#disc,h4,.P,#resume,.resumer,.download,footer {
+    .navbar,#w,#disc,h4,.P,#resume,.resumer,.download,footer,a {
       display: none;
     }
   
