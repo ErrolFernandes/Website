@@ -115,6 +115,7 @@ p{
 margin-top: 0;
 margin-left: 3%;
 margin-right: 100px;
+
 font-family: c;
 font-style: normal;
 line-height: 20px;
@@ -154,8 +155,14 @@ h4{
     justify-content: center;
 }
 
+.P > div > p{
+    display: flex;
+    justify-content: center;
+}
+
 .P > div{
     border: 2px solid #FFFFFF;
+    border-radius: 10px;
     justify-content: space-around;
 }
 
@@ -165,10 +172,24 @@ h4{
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
 }
-.resume{
+.resumer {
     display: flex;
     justify-content: center;
     height: 90%;
+}
+
+.download{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.download > a{
+    font-family: c;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #292C23;
 }
 footer{
     display: flex;
