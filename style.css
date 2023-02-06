@@ -119,6 +119,7 @@ margin-right: 100px;
 font-family: c;
 font-style: normal;
 line-height: 25px;
+
 text-align: justify;
 letter-spacing: 0.45em;
 word-spacing: 0.45em;
@@ -206,3 +207,22 @@ footer{
     background-color: #FFFFFF;
     color: #292C23;
 }
+
+#message {
+    display: none;
+  }
+  
+  @media (max-width: 1000px){
+    #message {
+        display: block;
+        text-align: center;
+        letter-spacing: 0;
+        font-size: 100px;
+        line-height: 150px;
+      }
+    .navbar,#w,#disc,h4,.P,#resume,.resumer,.download,footer {
+      display: none;
+    }
+  
+    
+  }
