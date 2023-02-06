@@ -1,10 +1,14 @@
 html {
     cursor: url(/Assets/Cursor.png), auto;
    
-
+    
 }
+:root {
+    --sc: #292C23;
+    --pc: #e5e7eb;
+  }
 body{
-    background: #292C23;
+    background: var(--sc);
     
 }
 @font-face {
@@ -23,12 +27,12 @@ body{
   
 
   ::-webkit-scrollbar-thumb {
-    background:#FFFFFF; 
+    background:var(--pc); 
     
   }
 
 .navbar{
-    background-color: #292C23;
+    background-color: var(--sc);
     position: sticky;top: 0px;
     
 }
@@ -42,13 +46,13 @@ body{
 }
 .navbar a {
     
-    color: #FFFFFF;
+    color: var(--pc);
     text-decoration: none;
 }
 
 .navbar a:hover {
     
-    color:#292C23;
+    color:var(--sc);
 }
 
 
@@ -65,7 +69,12 @@ body{
 
   .conts>div>a{
     
-    color: #FFFFFF;
+    color: var(--pc);
+  }
+
+  .conts>div:hover{
+    transform: scale(1.2);
+    
   }
 
 a:-webkit-any-link {
@@ -73,7 +82,7 @@ a:-webkit-any-link {
 }
 span{
     position: absolute;
-    border: 3px dashed #FFFFFF;
+    border: 3px dashed var(--pc);
     padding: 5px;
     font-family: c;
     font-style: normal;
@@ -98,7 +107,7 @@ span{
     }
 
     span:hover{
-        background-color: #FFFFFF;
+        background-color: var(--pc);
         
     }
 
@@ -106,8 +115,8 @@ marquee{
     /* position: relative; */
     height: 40px;
     margin-top: 3%;
-    background-color: #FFFFFF;
-    color: #292C23;
+    background-color: var(--pc);
+    color: var(--sc);
     font-family: c;
 }
 
@@ -123,7 +132,7 @@ h3 {
     font-size: 120px;
     line-height: 100.5%;
     letter-spacing: 0.19em;
-    color: #FFFFFF;
+    color: var(--pc);
 }
 
 #disc{
@@ -140,7 +149,7 @@ line-height: 25px;
 text-align: justify;
 letter-spacing: 0.45em;
 word-spacing: 0.45em;
-color: #FFFFFF;
+color: var(--pc);
 font-stretch: 100;
 mix-blend-mode: normal;
 
@@ -153,8 +162,8 @@ h4{
     margin-top: 100px;
     font-family: c;
     letter-spacing: 0.25em;
-    color: #FFFFFF;
-    border-top: 5px dashed #FFFFFF;
+    color: var(--pc);
+    border-top: 5px dashed var(--pc);
     padding-top: 50px;
 }
 
@@ -162,7 +171,7 @@ h4{
     display: flex;
     margin-top: 150px;
     margin-bottom:250px;
-    color: #FFFFFF;
+    color: var(--pc);
     font-family: c;
     justify-content: space-around;
 }
@@ -183,22 +192,22 @@ h4{
 }
 
 .P > div{
-    border: 2px solid #FFFFFF;
+    border: 2px solid var(--pc);
     border-radius: 10px;
     justify-content: space-around;
 }
 
 .P > div >button{
-    background-color: #292C23;
+    background-color: var(--sc);
     margin: 20px;
-    color: #FFFFFF;
-    border: 2px solid #FFFFFF;
+    color: var(--pc);
+    border: 2px solid var(--pc);
 }
     .P > div >button:hover{
-        background-color:#FFFFFF;
+        background-color:var(--pc);
         margin: 20px;
-        color: #292C23;
-        border: 2px solid #292C23;
+        color: var(--sc);
+        border: 2px solid var(--sc);
 }
 .resumer {
     display: flex;
@@ -216,17 +225,17 @@ h4{
 .download > a{
     font-family: c;
     text-decoration: none;
-    border: 3px dashed #FFFFFF;
+    border: 3px dashed var(--pc);
     padding: 2px;
-    background-color: #FFFFFF;
-    color: #292C23;
+    background-color: var(--pc);
+    color: var(--sc);
 }
 
 
 .download>a:hover{
-    border: 3px dashed #FFFFFF;
-    background-color: #292C23;
-    color: #FFFFFF;
+    border: 3px dashed var(--pc);
+    background-color: var(--sc);
+    color: var(--pc);
 }
 
 
@@ -236,11 +245,11 @@ footer{
     margin-top: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+    margin-right: 0;
     font-family: c;
     font-size: 15px;
-    background-color: #FFFFFF;
-    color: #292C23;
+    background-color: var(--pc);
+    color: var(--sc);
 }
 
 
@@ -252,7 +261,7 @@ footer{
   @media (max-width: 1000px){
     #message {
         display: flex;
-        color: #FFFFFF;
+        color: var(--pc);
         justify-content: center;
         font-family: c;
         letter-spacing: 0;
