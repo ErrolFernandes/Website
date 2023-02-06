@@ -1,11 +1,13 @@
 html {
     cursor: url(/Assets/Cursor.png), auto;
+    
    
     
 }
 :root {
     --sc: #292C23;
     --pc: #e5e7eb;
+    
   }
 body{
     background: var(--sc);
@@ -42,6 +44,7 @@ body{
     height: 68px;
     margin-left: 1%;
     margin-top: 1%;
+    
     
 }
 .navbar a {
@@ -213,6 +216,7 @@ h4{
     display: flex;
     justify-content: center;
     height: 90%;
+    
 }
 
 .download{
