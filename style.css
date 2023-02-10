@@ -1,9 +1,13 @@
 html {
     cursor: url(/Assets/Cursor.png), auto;
-    
-   
-    
+  
 }
+
+  
+  .inversed {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+  }
 :root {
     --sc: #292C23;
     --pc: #e5e7eb;
@@ -12,6 +16,26 @@ html {
 body{
     background: var(--sc);
     
+}
+
+.inv{
+    position: absolute;
+    
+    margin-top: 2.3%;
+    margin-left: 66em;
+    padding:0 20 2 0;
+    border: 0;
+    border-radius: 200px;
+    transition: padding 0.2s;
+  
+}
+.inv:focus-visible {
+        outline: none;
+    
+}
+.ind{
+    padding:0 0 2 20;
+
 }
 @font-face {
     font-family: bhs;
@@ -83,7 +107,7 @@ body{
 a:-webkit-any-link {
     cursor: url(/Assets/Cursor.png), auto;;
 }
-span{
+.hi{
     position: absolute;
     border: 3px dashed var(--pc);
     padding: 5px;
@@ -109,7 +133,7 @@ span{
         margin-left: 52em;
     }
 
-    span:hover{
+    .hi:hover{
         background-color: var(--pc);
         
     }
@@ -189,16 +213,17 @@ h4{
     justify-content: center;
 }
 
-.P > div > p{
-    display: flex;
-    justify-content: center;
-}
+
 
 .P > div{
     border: 2px solid var(--pc);
     border-radius: 10px;
     justify-content: space-around;
 }
+
+
+
+
 
 .P > div >button{
     background-color: var(--sc);

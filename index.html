@@ -6,16 +6,20 @@
     <link rel="icon" type="image/x-icon" href="/Assets/logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <title>Errol Fernandes</title>
 </head>
 <body>
    
+    
+    
         <nav class="navbar">
         <a href="index.html"><img src="/Assets/logoo.png" class="logoo"></a>
-        <span class="home" ><a href="index.html">HOME</a></span>
-        <span class="projects"><a href="#Projectsec">PROJECTS</a></span>
-        <span class="resumepage"><a href="#resume">RESUME</a></span>
-        
+        <span class="home hi" ><a href="index.html">HOME</a></span>
+        <span class="projects hi"><a href="#Projectsec">PROJECTS</a></span>
+        <span class="resumepage hi"><a href="#resume">RESUME</a></span>
+        <button class="inv"> &#11044;</button>
     
         </nav>
 
@@ -49,27 +53,49 @@
             </div>
             
            <h4 id="Projectsec">PROJECTS</h4><div class="P" >
-                <div ><h5>Project 1</h5>
-                    <div><img src="/Assets/Rectangle 16.png"></div>
+                <div ><h5>Kubernetes Orchestration</h5>
+                    <div><img src="/Assets/projectpreview.png"></div>
                     <button type="button">CODE</button>
                     <button type="button">DEMO</button>
                 </div>
-                <div ><h5>Project 2</h5>
-                    <div><img src="/Assets/Rectangle 16.png"></div>
+                <div ><h5>Terraform & Ansible with AWS</h5>
+                    <div><img src="/Assets/projectpreview.png"></div>
                     <button type="button">CODE</button>
                     <button type="button">DEMO</button>
                 </div>
-                <div ><h5>Project 3</h5>
-                    <div><img src="/Assets/Rectangle 16.png"></div>
+                <div ><h5>Jenkins CI/CD</h5>
+                    <div><img src="/Assets/projectpreview.png"></div>
                     <button type="button">CODE </button>
                     <button type="button">DEMO</button>
                 </div>
-                <div ><h5>Project 4</h5>
-                    <div><img src="/Assets/Rectangle 16.png"></div>
+                <!-- <div ><h5>Project 4</h5>
+                    <div><img src="/Assets/projectpreview.png"></div>
                     <button type="button">CODE</button>
                     <button type="button">DEMO</button>
-                </div>
+                </div> -->
             </div>
+            <!-- <div class="P" >
+            <div ><h5>Kubernetes Orchestration</h5>
+                <div><img src="/Assets/projectpreview.png"></div>
+                <button type="button">CODE</button>
+                <button type="button">DEMO</button>
+            </div>
+            <div ><h5>Terraform & Ansible with AWS</h5>
+                <div><img src="/Assets/projectpreview.png"></div>
+                <button type="button">CODE</button>
+                <button type="button">DEMO</button>
+            </div>
+            <div ><h5>Jenkins CI/CD</h5>
+                <div><img src="/Assets/projectpreview.png"></div>
+                <button type="button">CODE </button>
+                <button type="button">DEMO</button>
+            </div>
+            <div ><h5>Project 4</h5>
+                <div><img src="/Assets/projectpreview.png"></div>
+                <button type="button">CODE</button>
+                <button type="button">DEMO</button>
+            </div>
+        </div> -->
             
             <h4 id="resume">RESUME</h4>
            <div class="resumer" id="">
@@ -85,5 +111,11 @@
            <footer>&copy; Copyright | Errol Fernandes 2023
             
            </footer>
+           <script>
+            $(".inv").click(function () {
+                $("html").toggleClass("inversed");
+                $(".inv").toggleClass("ind");
+              });
+              </script>
 </body>
 </html>
