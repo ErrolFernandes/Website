@@ -162,7 +162,7 @@ h3 {
     color: var(--pc);
 }
 
-#disc{
+.disc{
     /* position: relative; */
     font-size: 10px;
 margin-top: 0;
@@ -179,8 +179,11 @@ word-spacing: 0.45em;
 color: var(--pc);
 font-stretch: 100;
 mix-blend-mode: normal;
+}
 
-
+.disc>span{
+    background-color: var(--pc);
+    color: var(--sc);
 }
 
 h4{
