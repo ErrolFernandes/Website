@@ -192,7 +192,7 @@ h4{
     justify-content: center;
     margin-top: 100px;
     font-family: c;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.15em;
     color: var(--pc);
     border-top: 5px dashed var(--pc);
     padding-top: 50px;
